@@ -67,3 +67,4 @@ autocmd BufRead *.py set smartindent
 " Список слів, які спричиняють більше відступу С (стосується буфера)
 autocmd BufRead *.py set cinwords=if,elif,else,for,while,try,except,finally,def,class,match
 
+" autocmd bufwritePre *.py normal m':%s/\s\+$//e ''
