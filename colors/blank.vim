@@ -18,75 +18,75 @@ let g:colors_name = "blank"
 
 " :he group-name
 " Any comment
-hi Comment          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Comment          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any constant
-hi Constant         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Constant         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A string constant: 'this is a string'
-hi String           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi String           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A character constant: 'c', '\n'
-hi Character        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Character        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A number constant: 234, 0xff
-hi Number           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Number           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A boolean constant: TRUE, false
-hi Boolean          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Boolean          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A floating point constant: 2.3e10
-hi Float            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Float            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any variable name
-hi Identifier       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Identifier       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Function name (also: methods for classes)
-hi Function         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Function         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any statement
-hi Statement        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Statement        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " if, then, else, endif, switch, etc.
-hi Conditional      term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Conditional      term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " for, do, while, etc.
-hi Repeat           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Repeat           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " case, default, etc.
-hi Label            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Label            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " 'sizeof', '+', '*', etc.
-hi Operator         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Operator         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any other keyword
-hi Keyword          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Keyword          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " try, catch, throw
-hi Exception        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Exception        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Generic Preprocessor
-hi PreProc          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi PreProc          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Preprocessor #include
-hi Include          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Include          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Preprocessor #define
-hi Define           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Define           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Same as Define
-hi Macro            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Macro            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Preprocessor #if, #else, #endif, etc.
-hi PreCondit        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi PreCondit        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " int, long, char, etc.
-hi Type             term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Type             term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " static, register, volatile, etc.
-hi StorageClass     term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi StorageClass     term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " struct, union, enum, etc.
-hi Structure        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Structure        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " A typedef
-hi Typedef          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Typedef          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any special symbol
-hi Special          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Special          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Special character in a constant
-hi SpecialChar      term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi SpecialChar      term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " You can use CTRL-] on this
-hi Tag              term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Tag              term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Character that needs attention
-hi Delimiter        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Delimiter        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Special things inside a comment
-hi SpecialComment   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi SpecialComment   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Debugging statements
-hi Debug            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Debug            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Text that stands out, HTML links
-hi Underlined       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Underlined       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Left blank, hidden  |hl-Ignore|
-hi Ignore           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Ignore           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Any erroneous construct
-hi Error            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Error            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
-hi Todo             term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE    
+hi Todo             term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 
 " :he highlight-groups
 " Used for the columns set with 'colorcolumn'.
@@ -169,7 +169,7 @@ hi QuickFixLine     term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 hi Search           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Current match for the last search pattern (see 'hlsearch').
 hi CurSearch        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
-" Meta and special keys listed with ':map', also for text used to show unprintable characters in the text, 'listchars'. 
+" Meta and special keys listed with ':map', also for text used to show unprintable characters in the text, 'listchars'.
 " Generally: Text that is displayed differently from what it really is.
 hi SpecialKey       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 " Word that is not recognized by the spellchecker. |spell|
