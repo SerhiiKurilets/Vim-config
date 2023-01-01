@@ -2,7 +2,7 @@
 "
 " local syntax file - set colors on a per-machine basis:
 " Vim color file
-" Maintainer:       Serhii Kurilets:   serhiikurulets@gmail.com>
+" Maintainer:       Serhii Kurilets:   serhiikurilets@gmail.com>
 " Last Change:      2022 dec 31
 " Version:          0.1 Yellow
 "
