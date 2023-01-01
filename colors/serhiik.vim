@@ -208,7 +208,7 @@ hi TabLineSel       term=bold       cterm=bold      ctermbg=NONE    ctermfg=NONE
 "hi WildMenu         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 
 hi User1            term=bold       cterm=bold      ctermbg=234     ctermfg=196
-hi User2            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi User2            term=bold       cterm=bold      ctermbg=234     ctermfg=083
 hi User3            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 hi User4            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 hi User5            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
