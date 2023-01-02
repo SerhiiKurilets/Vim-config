@@ -9,14 +9,16 @@ syn keyword pythonBoolean	    False True
 syn keyword pythonType          int str chr bool float set list tuple dict None
 syn keyword pythonConditional   match case
 "syn keyword pythonPrint         print
-syn keyword pythonDefine    	class def nextgroup=pythonFunction skipwhite
+syn keyword pythonDefine    	class def nextgroup=pythonDefFunction skipwhite
 
-syntax match pythonOperatorChars "?\|+\|-\|\*\|;\|:\|,\|<\|>\|&\||\|!\|\~\|%\|=\|)\|(\|{\|}\|\.\|\[\|\]\|/\(/\|*\)\@!"
+
+syn match pythonDefFunction	"\h\w*" display contained
+syn match pythonOperatorChars "?\|+\|-\|\*\|;\|:\|,\|<\|>\|&\||\|!\|\~\|%\|=\|)\|(\|{\|}\|\.\|\[\|\]\|/\(/\|*\)\@!"
 
 " Color
 hi def link pythonOperatorChars		Operator
 hi def link pythonClassSelf		    Label
 hi def link pythonBoolean	    	Boolean
-hi def link pythonType	        	Type
-
+hi def link pythonType	        	PreCondit
+hi def link pythonDefFunction       Identifier
 hi def link pythonDefine            StorageClass

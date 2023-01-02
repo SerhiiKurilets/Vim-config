@@ -32,15 +32,15 @@ hi Boolean          term=bold,italic    cterm=bold,italic   ctermbg=NONE    cter
                     " A floating point constant: 2.3e10
 hi Float            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=229
                     " Any variable name
-hi Identifier       term=italic     cterm=italic    ctermbg=NONE    ctermfg=070
+hi Identifier       term=bold       cterm=bold      ctermbg=NONE    ctermfg=045
                     " Function name (also: methods for classes)
-hi Function         term=bold       cterm=bold      ctermbg=NONE    ctermfg=045
+hi Function         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=045
                     " Any statement
 hi Statement        term=bold       cterm=bold      ctermbg=NONE    ctermfg=226
                     " if, then, else, endif, switch, etc.
-hi Conditional      term=bold       cterm=bold      ctermbg=NONE    ctermfg=214
+hi Conditional      term=bold,italic       cterm=bold,italic       ctermbg=NONE    ctermfg=214
                     " for, do, while, etc.
-hi Repeat           term=bold       cterm=bold      ctermbg=NONE    ctermfg=214
+hi Repeat           term=bold,italic       cterm=bold,italic       ctermbg=NONE    ctermfg=214
                     " case, default, etc.
 hi Label            term=italic     cterm=italic    ctermbg=NONE    ctermfg=229
                     " 'sizeof', '+', '*', etc.
@@ -58,9 +58,9 @@ hi Define           term=bold       cterm=bold      ctermbg=NONE    ctermfg=214
                     " Same as Define
 "hi Macro            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Preprocessor #if, #else, #endif, etc.
-"hi PreCondit        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi PreCondit        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=207
                     " int, long, char, etc.
-hi Type             term=bold,italic     cterm=bold,italic    ctermbg=NONE    ctermfg=086
+hi Type             term=italic     cterm=italic    ctermbg=NONE    ctermfg=086
                     " static, register, volatile, etc.
 hi StorageClass     term=bold,italic     cterm=bold,italic    ctermbg=NONE    ctermfg=190
                     " struct, union, enum, etc.
