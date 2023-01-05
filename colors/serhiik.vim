@@ -18,7 +18,7 @@ let g:colors_name = "serhiik"
 
 " :he group-name
                     " Any comment
-hi Comment          term=italic     cterm=italic    ctermbg=NONE    ctermfg=250
+hi Comment          term=italic     cterm=italic    ctermbg=NONE    ctermfg=247
                     " Any constant
 hi Constant         term=bold,italic,underline cterm=bold,italic,underline      ctermbg=NONE    ctermfg=NONE
                     " A string constant: 'this is a string'
@@ -173,7 +173,7 @@ hi Normal           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Current |quickfix| item in the quickfix window.
 "hi QuickFixLine     term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Last search pattern highlighting (see 'hlsearch').
-"hi Search           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi Search           term=italic     cterm=italic    ctermbg=247    ctermfg=232
                     " Current match for the last search pattern (see 'hlsearch').
 "hi CurSearch        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Meta and special keys listed with ':map',
