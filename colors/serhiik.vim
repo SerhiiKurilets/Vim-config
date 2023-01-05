@@ -144,7 +144,7 @@ hi CursorLineNr     term=bold       cterm=bold      ctermbg=234     ctermfg=015
 "hi CursorLineSign   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Character under the cursor or just before it,
                     " if it is a paired bracket, and its match. |pi_paren.txt|
-hi MatchParen       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=046
+hi MatchParen       term=NONE       cterm=NONE      ctermbg=232    ctermfg=214
                     " Messages popup window used by `:echowindow`.
                     " If not defined |hl-WarningMsg| is used.
 "hi MessageWindow    term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
@@ -173,7 +173,7 @@ hi Normal           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Current |quickfix| item in the quickfix window.
 "hi QuickFixLine     term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Last search pattern highlighting (see 'hlsearch').
-hi Search           term=italic     cterm=italic    ctermbg=247    ctermfg=232
+hi Search           term=underline   cterm=underline ctermbg=232     ctermfg=255
                     " Current match for the last search pattern (see 'hlsearch').
 "hi CurSearch        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Meta and special keys listed with ':map',
@@ -217,9 +217,13 @@ hi TabLineSel       term=bold       cterm=bold      ctermbg=NONE    ctermfg=NONE
                     " Current match in 'wildmenu' completion.
 "hi WildMenu         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 
+" User colors
+                    " Statusline save and readonly
 hi User1            term=bold       cterm=bold      ctermbg=234     ctermfg=196
+                    " Statusline showcmd (pressed keys)
 hi User2            term=bold       cterm=bold      ctermbg=234     ctermfg=083
-hi User3            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+                    " Statusline bufer number
+hi User3            term=bold       cterm=bold      ctermbg=234     ctermfg=224
 hi User4            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 hi User5            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
 hi User6            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
