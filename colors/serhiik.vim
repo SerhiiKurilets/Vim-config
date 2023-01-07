@@ -16,7 +16,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "serhiik"
 
-" :he group-name
+" :he group-names
                     " Any comment
 hi Comment          term=italic     cterm=italic    ctermbg=NONE    ctermfg=247
                     " Any constant
@@ -90,7 +90,7 @@ hi Todo             term=underline  cterm=underline ctermbg=NONE    ctermfg=226
 
 " :he highlight-groups
                     " Used for the columns set with 'colorcolumn'.
-"hi ColorColumn      term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi ColorColumn      term=NONE       cterm=NONE      ctermbg=235     ctermfg=NONE
                     " Placeholder characters substituted for concealed text (see 'conceallevel').
 "hi Conceal          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Character under the cursor.
@@ -150,7 +150,7 @@ hi MatchParen       term=NONE       cterm=NONE      ctermbg=232    ctermfg=214
 "hi MessageWindow    term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " 'showmode' message (e.g., '-- INSERT --').
 "hi ModeMsg          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
-                    " |more-prompt|
+                    " |more-prompt| and
 "hi MoreMsg          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " '@' at the end of the window, '<<<' at the start of the window
                     " for 'smoothscroll', characters from 'showbreak' and other
@@ -158,13 +158,13 @@ hi MatchParen       term=NONE       cterm=NONE      ctermbg=232    ctermfg=214
                     " Normal text.
 hi Normal           term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Popup menu: Normal item.
-"hi Pmenu            term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
-                    " Popup menu: Selected item.
-"hi PmenuSel         term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi Pmenu            term=italic     cterm=italic    ctermbg=238     ctermfg=247
+                    " Popup menu: Selected item.item item
+hi PmenuSel         term=bold       cterm=bold      ctermbg=234     ctermfg=229
                     " Popup menu: Scrollbar.
-"hi PmenuSbar        term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi PmenuSbar        term=NONE       cterm=NONE      ctermbg=239     ctermfg=NONE
                     " Popup menu: Thumb of the scrollbar.
-"hi PmenuThumb       term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
+hi PmenuThumb       term=NONE       cterm=NONE      ctermbg=237     ctermfg=NONE
                     " Popup window created with |popup_notification()|.
                     " If not defined |hl-WarningMsg| is used.
 "hi PopupNotification    term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
