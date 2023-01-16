@@ -147,9 +147,9 @@ hi CursorLineNr     term=bold       cterm=bold      ctermbg=234     ctermfg=015
 "hi CursorLineFold   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Like SignColumn when 'cursorline' is set for the cursor line.
 "hi CursorLineSign   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
-                    " Character under the cursor or just before it,
+                    " Character under the cursor or just before it,(    )
                     " if it is a paired bracket, and its match. |pi_paren.txt|
-hi MatchParen       term=bold       cterm=bold      ctermbg=232    ctermfg=214
+hi MatchParen       term=bold       cterm=bold      ctermbg=232    ctermfg=208
                     " Messages popup window used by `:echowindow`.
                     " If not defined |hl-WarningMsg| is used.
 "hi MessageWindow    term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
