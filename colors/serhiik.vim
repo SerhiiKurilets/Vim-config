@@ -1,9 +1,14 @@
-" ========== Color scheme blank.vim ==========
+" ========== Color scheme serhiik.vim ==========
 "
 " local syntax file - set colors on a per-machine basis:
 " Vim color file
-" Maintainer:       Serhii Kurilets:   serhiikurilets@gmail.com>
-" Last Change:      2022 dec 31
+"
+" Name:             serhiik
+" Description:      Hand made, created with love.
+" Author:           Serhii Kurilets:   <serhiikurilets@gmail.com>
+" Maintainer:       Serhii Kurilets:   <serhiikurilets@gmail.com>
+" Last Change:      2023 jan 15
+" License:          Same as Vim
 " Version:          0.1 Yellow
 "
 " mkdir -r ~/.vim/colors/ or ~/.config/nvim/colors
@@ -90,7 +95,7 @@ hi Todo             term=underline  cterm=underline ctermbg=NONE    ctermfg=226
 
 " :he highlight-groups
                     " Used for the columns set with 'colorcolumn'.
-hi ColorColumn      term=NONE       cterm=NONE      ctermbg=235     ctermfg=NONE
+hi ColorColumn      term=NONE       cterm=NONE      ctermbg=236     ctermfg=NONE
                     " Placeholder characters substituted for concealed text (see 'conceallevel').
 "hi Conceal          term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Character under the cursor.
@@ -144,7 +149,7 @@ hi CursorLineNr     term=bold       cterm=bold      ctermbg=234     ctermfg=015
 "hi CursorLineSign   term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE
                     " Character under the cursor or just before it,
                     " if it is a paired bracket, and its match. |pi_paren.txt|
-hi MatchParen       term=NONE       cterm=NONE      ctermbg=232    ctermfg=214
+hi MatchParen       term=bold       cterm=bold      ctermbg=232    ctermfg=214
                     " Messages popup window used by `:echowindow`.
                     " If not defined |hl-WarningMsg| is used.
 "hi MessageWindow    term=NONE       cterm=NONE      ctermbg=NONE    ctermfg=NONE

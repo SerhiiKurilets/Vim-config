@@ -2,7 +2,13 @@
 " vim config: ~/.vim/vimrc
 " neovim config: ~/.config/nvim/init.vim
 "
-" Maintainer: Serhii Kurilets
+" Name:             serhiik
+" Description:      Hand made, created with love.
+" Author:           Serhii Kurilets:   <serhiikurilets@gmail.com>
+" Maintainer:       Serhii Kurilets:   <serhiikurilets@gmail.com>
+" Last Change:      2023 jan 15
+" License:          Same as Vim
+" Version:          0.1 Yellow
 "
 " :tab help options - показати файл справки по усім командам
 " :tab options - вивести всі поточні налаштування в новій вкладці
